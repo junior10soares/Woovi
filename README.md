@@ -5,9 +5,25 @@
 Desenvolvi uma aplicação em React Native para a Woovi, uma startup que oferece soluções de pagamento instantâneas para comerciantes aceitarem pedidos. O protótipo foi desenvolvido com base no design fornecido.
 
 ## Funcionalidades Implementadas
+Opção de pagamento com Pix:
 
-- Opção de pagamento com Pix.
-- Parcelamento no cartão de crédito.
+- O usuário acessa a opção de pagamento com Pix.
+
+- É exibida uma tela onde o usuário pode visualizar e copiar o link de pagamento Pix.
+
+- Adicionei animações à tela inicial para proporcionar uma experiência mais dinâmica.
+
+- Implementei um botão de voltar que não estava presente no design do Figma.
+
+- Incluí animações de sucesso ao copiar o QR code e ao finalizar o pagamento com Pix.
+
+Opção de pagamento parcelado no cartão de crédito:
+
+- O usuário opta pelo pagamento parcelado no cartão de crédito.
+
+- Uma tela com um formulário é apresentada, solicitando que o usuário insira os dados do cartão para concluir o pagamento.
+
+- Mantive a consistência das animações adicionando feedbacks visuais de sucesso após a conclusão do pagamento parcelado.
 
 ## O que foi analisado
 
@@ -18,21 +34,32 @@ Ao desenvolver esta solução, levei em consideração os critérios de avaliaç
 - Sugestões de novas funcionalidades, como download do PDF da bula.
 - Utilização da biblioteca MUI para estilização.
 
-## Como Rodar o Projeto
+## Como Rodar o Projeto Localmente
+Para executar o projeto em seu ambiente local, siga os passos abaixo:
 
-Para rodar o projeto localmente, siga os passos abaixo:
+Passo 1: Clone o repositório
 
-1. Clone o repositório do projeto para o seu ambiente local:
+Clone o repositório do projeto para o seu computador usando o Git. Abra o terminal e execute o seguinte comando:
 
-2. Navegue até o diretório do projeto:
+git clone https://github.com/junior10soares/Woovi.git
 
-3. Instale todas as dependências necessárias:
-npm i
+Passo 2: Acesse o diretório do projeto
 
-4. Após instalar as dependências, inicie o projeto com Expo usando o seguinte comando:
+Navegue até o diretório do projeto clonado usando o comando cd:
+
+cd Woovi
+
+Passo 3: Instale as dependências
+
+Para instalar todas as dependências necessárias para o projeto, execute o seguinte comando:
+
+npm install
+
+Passo 4: Inicie o projeto com Expo
+
+Após a instalação das dependências, você pode iniciar o projeto utilizando o seguinte comando:
+
 npx expo start
-
-Este comando iniciará o Expo Metro Bundler e fornecerá opções para visualizar o aplicativo em um dispositivo físico ou em um emulador.
 
 ## Design no Figma
 
