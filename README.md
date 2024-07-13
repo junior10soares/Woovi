@@ -2,7 +2,7 @@
 
 ## Desafio
 
-Desenvolvi uma aplicação em React Native para a Woovi, uma startup que oferece soluções de pagamento instantâneas para comerciantes aceitarem pedidos. O protótipo foi desenvolvido com base no design fornecido no [Figma da Woovi](https://www.figma.com/file/hv1LgD7oNrtlmfWgKBG6PF/Woovi-Desafio-Front?node-id=1%3A100).
+Desenvolvi uma aplicação em React Native para a Woovi, uma startup que oferece soluções de pagamento instantâneas para comerciantes aceitarem pedidos. O protótipo foi desenvolvido com base no design fornecido.
 
 ## Funcionalidades Implementadas
 
@@ -38,11 +38,11 @@ Este comando iniciará o Expo Metro Bundler e fornecerá opções para visualiza
 
 O design do projeto foi baseado no [Figma da Woovi](https://www.figma.com/file/hv1LgD7oNrtlmfWgKBG6PF/Woovi-Desafio-Front?node-id=1%3A100), fornecendo a estrutura visual e elementos de interface que foram implementados na aplicação. O Figma é uma ferramenta de design colaborativa que permite prototipar e visualizar interfaces de usuário de forma eficiente.
 
-## Versão mobile
-![Captura de tela de 2024-04-18 00-40-22](https://github.com/Dotlib-BR/teste-desenvolvedor-frontend/assets/113471068/52141909-66ee-4533-a66f-4268f4260032)
+## Versão mobile vídeo
 
-## Deploy
-O site do teste está acessível para qualquer pessoa [aqui](https://medicines.vercel.app/).
+  https://github.com/user-attachments/assets/89ceae8f-7f26-49f7-8722-c1327c5006d5
+
+
 
 Aguardo feedbacks e estou à disposição para quaisquer esclarecimentos adicionais.
 
