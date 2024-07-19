@@ -70,7 +70,9 @@ Opção de pagamento parcelado no cartão de crédito:
 
 ## 👀 Demonstração
 
- https://github.com/user-attachments/assets/89ceae8f-7f26-49f7-8722-c1327c5006d5
+<h1 align="center">
+  <img src="src/assets/e.gif"/>
+</h1>
 
 <br/>
 
@@ -117,8 +119,18 @@ npx expo start
 
 
 <h3 align="center">
-Autor: <a alt="Junior Soares" href="https://www.linkedin.com/in/edsonjr-dev/">Junior Soares</a>
-  <br/>
+Author: <a alt="Junior Soares" href="https://github.com/junior10soares">Junior Soares</a>
+</h3>
+
+<p align="center">
+
+  <a alt="Junior Soares" href="https://www.linkedin.com/in/edsonjr-dev/">
+    <img src="https://img.shields.io/badge/LinkedIn-Edson_JR-0077B5?logo=linkedin"/></a>
+  <a alt="Junior Soares" href="https://github.com/junior10soares">
+  <img src="https://img.shields.io/badge/JR_Soares-GitHub-000?logo=github"/></a>
+
+</p>
+
   <br/>
 <p align="center">Feito com ♥️ 2024</p>
 </h3>
