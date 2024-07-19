@@ -1,0 +1,9 @@
+export { default as Header } from './Header';
+export { default as Title } from './Title';
+export { default as Input } from './Input';
+export { default as ButtonPaper } from './ButtonPaper';
+export { default as DatePayment } from './DatePayment';
+export { default as Main } from './Main';
+export { default as FooterSvg } from './FooterSvg';
+export { default as Checkbox } from './Checkbox';
+export { default as Label } from './Label';

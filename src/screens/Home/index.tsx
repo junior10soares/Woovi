@@ -1,9 +1,9 @@
 import React, { useEffect, useRef } from 'react';
-import { Animated, Easing } from 'react-native';
+import { Animated, Easing, StyleSheet } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
+import { Card } from 'react-native-paper'
 
 import LogoWoovi from '../../assets/logo.svg';
-import { Card } from 'react-native-paper'
 
 export function Home() {
     const { navigate } = useNavigation();
@@ -50,9 +50,24 @@ export function Home() {
         startAnimations();
     }, []);
 
+    const styles = StyleSheet.create({
+        container: {
+            alignItems: 'center',
+            justifyContent: 'center',
+            flex: 1,
+        },
+        animatedLogo: {
+            transform: [
+                { translateX: translateX },
+                { scaleX: scale },
+                { scaleY: scale },
+            ],
+        },
+    });
+
     return (
-        <Card style={{ alignItems: 'center', justifyContent: 'center', flex: 1 }}>
-            <Animated.View style={{ transform: [{ translateX }, { scaleX: scale }, { scaleY: scale }] }}>
+        <Card style={styles.container}>
+            <Animated.View style={styles.animatedLogo}>
                 <LogoWoovi width={100} height={100} />
             </Animated.View>
         </Card>

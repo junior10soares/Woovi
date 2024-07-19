@@ -1,12 +1,11 @@
-import { useEffect, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 import { FlatList, View } from 'react-native';
-import { Header } from '../../components/Header';
-import { Title } from '../../components/Title';
-import { FooterSvg } from '../../components/FooterSvg';
+import { useNavigation } from '@react-navigation/native';
+
 import { themeStyles } from '../../styles/theme';
 import { CardItem } from '../../components/CardItem';
 import { paymentMethods } from '../../utils/CardItens';
-import { useNavigation } from '@react-navigation/native';
+import { FooterSvg, Header, Title } from '../../components';
 
 export function PaymentMethod() {
 
@@ -41,8 +40,7 @@ export function PaymentMethod() {
         setMethods(updatedMethods);
     };
 
-
-    const renderItem = ({ item, index }: { item: typeof methods[number]; index: number }) => (
+    const renderItem = useCallback(({ item, index }: { item: typeof methods[number]; index: number }) => (
         <CardItem
             title={item.title}
             width={item.width}
@@ -55,7 +53,7 @@ export function PaymentMethod() {
             isChecked={item.isChecked}
             onChange={() => handleCheckboxChange(index)}
         />
-    );
+    ), [handleCheckboxChange]);
 
     useEffect(() => {
         const unsubscribe = navigation.addListener('focus', () => {

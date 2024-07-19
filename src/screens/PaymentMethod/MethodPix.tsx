@@ -3,14 +3,16 @@ import { useRoute } from '@react-navigation/native';
 import Toast from 'react-native-toast-message';
 
 import Qrcode from '../../assets/qrcode.svg';
-import { ButtonPaper } from '../../components/ButtonPaper';
-import { DatePayment } from '../../components/DatePayment';
-import { FooterSvg } from '../../components/FooterSvg';
-import { themeStyles } from '../../styles/theme';
-import { Main } from '../../components/Main';
-import { Header } from '../../components/Header';
 import { PropsPaymentMethod } from '../../components/CardItem';
-import { Title } from '../../components/Title';
+import {
+    ButtonPaper,
+    DatePayment,
+    FooterSvg,
+    Header,
+    Main,
+    Title
+} from '../../components';
+import { themeStyles } from '../../styles/theme';
 
 interface RouteParams {
     method: PropsPaymentMethod;
@@ -27,8 +29,6 @@ export function MethodPix() {
             visibilityTime: 2000,
         });
     };
-
-    console.log('Dados recebidos em method:', method);
 
     return (
         <View style={{ alignItems: 'center', backgroundColor: themeStyles.colors.background }}>

@@ -3,15 +3,16 @@ import { useRoute } from '@react-navigation/native';
 import Icon from 'react-native-vector-icons/AntDesign';
 import Toast from 'react-native-toast-message';
 
+import {
+    Header,
+    Title,
+    Input,
+    ButtonPaper,
+    DatePayment,
+    Main,
+    FooterSvg
+} from '../../components';
 import { PropsPaymentMethod } from '../../components/CardItem';
-import { Header } from '../../components/Header';
-import { Title } from '../../components/Title';
-import { Input } from '../../components/Input';
-import { ButtonPaper } from '../../components/ButtonPaper';
-import { DatePayment } from '../../components/DatePayment';
-import { Main } from '../../components/Main';
-import { FooterSvg } from '../../components/FooterSvg';
-
 interface RouteParams {
     method: PropsPaymentMethod;
 }
